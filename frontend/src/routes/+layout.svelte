@@ -1,10 +1,8 @@
 <script lang="js">
-    import Header from '../components/Header.svelte';
-import '../scss/app.scss';
+    import '../scss/app.scss';
 </script>
 
 <main>
-    <Header />
     <div class="content">
         <slot />
     </div>
