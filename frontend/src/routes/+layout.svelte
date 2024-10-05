@@ -3,14 +3,11 @@
 </script>
 
 <main>
-    <div class="content">
+    <div>
         <slot />
     </div>
 </main>
 
 <style lang="scss">
-    content {
-        display: flex;
-        flex-direction: column;
-    }
+
 </style>
